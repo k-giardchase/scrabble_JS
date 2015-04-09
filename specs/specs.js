@@ -27,4 +27,8 @@ describe('scrabble', function() {
     it("should return 23 for a 6 character word with letters valuing 1,2,3,4,5, and 8 ", function() {
         expect(scrabble('adbfkj')).to.equal(23);
     });
+
+    it("should return 22 for a 4 character word with letters valuing 10, 1, 1, 10", function() {
+        expect(scrabble('quiz')).to.equal(22);
+    });
 });
