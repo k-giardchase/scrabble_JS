@@ -8,4 +8,12 @@ describe('scrabble', function() {
         expect(scrabble('ae')).to.equal(2);
     });
 
+    it("should return 3 for a two character word with letters valuing 1 and 2", function() {
+        expect(scrabble('ad')).to.equal(3);
+    });
+
+    it("should return 6 for a three character word with letters valuing 1, 2, and 3", function() {
+        expect(scrabble('bad')).to.equal(6);
+    });
+
 });
