@@ -18,3 +18,15 @@ var scrabble = function(input) {
     });
     return score;
 }
+
+$(document).ready(function() {
+    $("form#scrabble").submit(function(event) {
+            var input_word = $("input#input_word").val();
+            var result = scrabble(input_word);
+            $(".score").text(result);
+
+
+            $("#result").show();
+            event.preventDefault();
+    });
+});
