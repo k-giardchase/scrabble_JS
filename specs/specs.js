@@ -16,4 +16,8 @@ describe('scrabble', function() {
         expect(scrabble('bad')).to.equal(6);
     });
 
+    it("should return 10 for a four character word with letters valuing 1, 2, 3, and 4", function() {
+        expect(scrabble('adbf')).to.equal(10);
+    });
+
 });
