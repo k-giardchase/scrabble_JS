@@ -20,8 +20,11 @@ describe('scrabble', function() {
         expect(scrabble('adbf')).to.equal(10);
     });
 
-    it("should return 15 for a five character for with letters valuing 1,2,3,4, and 5", function() {
+    it("should return 15 for a five character word with letters valuing 1,2,3,4, and 5", function() {
         expect(scrabble('adbfk')).to.equal(15);
     });
 
+    it("should return 23 for a 6 character word with letters valuing 1,2,3,4,5, and 8 ", function() {
+        expect(scrabble('adbfkj')).to.equal(23);
+    });
 });
