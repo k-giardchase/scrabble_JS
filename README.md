@@ -1,5 +1,5 @@
 ##Developers
-Kyle Giard-Chase, Jonathan Lin
+Kyle Giard-Chase & Jonathan Lin
 
 ##Date
 April 8 2015
