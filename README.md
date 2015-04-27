@@ -1,23 +1,26 @@
-Developers
+##Developers
 Kyle Giard-Chase, Jonathan Lin
 
 ##Date
 April 8 2015
 
 
-
 ##Description
-This app was created to calculate scrabble scores in Javascript with a web page made in HTML with Javascript and JQUERY
+An app that calculates a user's scrabble score with JavaScript.
 
 ##Technologies Used
-Javascript
-HTML
-JQUERY
-MOCHA WITH CHAI MODULE
-BDD
+JavaScript <br>
+<a href='https://jquery.com/download/'>jQuery-1.11.2</a> <br>
+<a href='http://mochajs.org/'>Mocha</a> <br>
+<a href='http://chaijs.com/'>Chai</a><br><br>
+
 
 ##Use and Editing
-To use the app, download git folder and click on scrabble.html. Web page will show up, insert your wanted word and a score will pop up
+To use the app, <br>
+1. Clone the repository. `git clone https://github.com/k-giardchase/scrabble_JS.git`<br>
+2. Change directories into the folder `cd scrabble_JS`<br>
+3. Open scrabble.html in your web browser.
+
 ##Copyright (c) 2015 Kyle Giard-Chase, Jonathan Lin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
