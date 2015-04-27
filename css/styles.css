@@ -1,3 +1,38 @@
 #result {
     display: none;
 }
+
+body {
+  text-align: center;
+  background-color: #CD5C5C;
+  color: #FFF;
+}
+
+#input_word {
+  color: #000;
+}
+
+.jumbotron {
+  height: 350px;
+  text-align: center;
+  background-image: url(http://uptownmagazine.com/files/2014/08/scrabble.jpg);
+  background-size: 100% 100%;
+}
+
+.round {
+  background-image: url(http://www.fleurusculture.be/img/uploads/evenements/2015/01/scrabble_android_1-1.jpg);
+  border-radius: 50%;
+  width: 325px;
+  height: 325px;
+  padding-left:  100px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+p {
+  margin: auto;
+  padding-top: 130px;
+  padding-right: 109px;
+  font-size:  75px;
+  color: white;
+}
