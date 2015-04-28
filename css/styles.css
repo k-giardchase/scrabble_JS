@@ -13,14 +13,15 @@ body {
 }
 
 .jumbotron {
-  height: 350px;
+  height: 450px;
   text-align: center;
-  background-image: url(http://uptownmagazine.com/files/2014/08/scrabble.jpg);
+  color: #000;
+  background-image: url('https://pocolit.files.wordpress.com/2010/03/areyouready.jpg');
   background-size: 100% 100%;
 }
 
 .round {
-  background-image: url(http://www.fleurusculture.be/img/uploads/evenements/2015/01/scrabble_android_1-1.jpg);
+  background-image: url('http://www.fleurusculture.be/img/uploads/evenements/2015/01/scrabble_android_1-1.jpg');
   border-radius: 50%;
   width: 325px;
   height: 325px;

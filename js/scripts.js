@@ -8,6 +8,7 @@ var scrabble = function(input) {
     j: 8, x: 8,
     q:10, z:10
   };
+
   var score = 0;
   var split_input = input.toLowerCase().split('');
 
@@ -25,6 +26,7 @@ $(document).ready(function() {
 
     $(".score").text(result);
     $("#result").show();
+    $("input#input_word").val("");
     event.preventDefault();
   });
 });
